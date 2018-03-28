@@ -1,0 +1,201 @@
+/*
+Project Name: Relaxr Site
+Client: GA FEWD WINTER 2018
+Author: Annemarie Happee
+Developer @GA in LA
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+     
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     /*color: #000; what WAS in template*/
+     color: #121212;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+     
+
+}
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/*header {
+  h2 { color: ;
+}need to header do still--we may not end up needing this*/
+
+h1 {
+  font-weight: 900px;
+  font-size: 24px;
+
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight:600px;
+  font-style: italic;
+  text-align: center;
+  color: white;
+}
+
+h4 {
+  font-size:24px;
+  font-weight: 800px;
+  text-align:center;
+  color: #f9e42e;
+
+}
+
+h5 {
+  font-size:9px;
+  font-weight: 600px;
+  text-align:center;
+  color: white;
+
+}
+
+p {
+  font-weight: 300;
+  font-size:14px;
+  text-align:left;
+}
+
+#container {
+  width: 960px;
+  margin: auto;
+  height: 500px;
+  padding-top: 32px;
+  color:white;
+  background: url(../images/header_bg.jpg) no-repeat center top #131e27;
+      /*background-size: 960; template had bg-size=cover, may not need this at all though*/ 
+     /* margin: 0 auto;*/
+}
+
+.logo {
+  font-size: 24px;
+  font-style: 800;
+  text-align: left;
+  color: white;
+}
+
+.subhead {
+  font-size: 24px;
+  font-style: 600;
+  text-align: center;
+
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 800; 
+  font-size:14px;
+  border-radius: 12px;
+  padding: 10px;
+  width: 280px;
+}
+
+.yellow {
+ background: #f9e42e;
+ color: #121212;
+}
+
+.blue {
+  background: #033048;
+  color: white;
+}
+
+#benefits {
+  width: 960px;
+  margin: auto;
+  height: 500px;
+  color: #121212;
+  padding: 100px 80px;
+  /*i copied my values from container ID to try and get the left margin to match*/
+}
+
+#quote{
+  width: 960px;
+  margin: auto;
+  height: 500px;
+  padding: 100px 0 80px;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top #131e27;
+}
+
+.signup {
+  height:100px;
+  width: auto;
+  display: block;
+  margin: 0px; 
+  background-color:#f9e42e;
+  padding: 30px;
+
+}
+
+
+
+footer {
+background-color: #121212;
+width: auto;
+height: 400px;
+text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
