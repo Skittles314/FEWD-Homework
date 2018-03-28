@@ -52,6 +52,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
+     background-color: black;
      
 
 }
@@ -69,7 +70,7 @@ body {
 }need to header do still--we may not end up needing this*/
 
 h1 {
-  font-weight: 900px;
+  font-weight: 900;
   font-size: 24px;
 
 }
@@ -82,7 +83,7 @@ h2 {
 
 h3 {
   font-size: 18px;
-  font-weight:600px;
+  font-weight:600;
   font-style: italic;
   text-align: center;
   color: white;
@@ -98,7 +99,7 @@ h4 {
 
 h5 {
   font-size:9px;
-  font-weight: 600px;
+  font-weight: 600;
   text-align:center;
   color: white;
 
@@ -114,7 +115,7 @@ p {
   width: 960px;
   margin: auto;
   height: 500px;
-  padding-top: 32px;
+  padding: 32px 60px; /*need to change the 60px to whatever the actual value is*/
   color:white;
   background: url(../images/header_bg.jpg) no-repeat center top #131e27;
       /*background-size: 960; template had bg-size=cover, may not need this at all though*/ 
@@ -162,6 +163,7 @@ p {
   height: 500px;
   color: #121212;
   padding: 100px 80px;
+  background-color:white;
   /*i copied my values from container ID to try and get the left margin to match*/
 }
 
