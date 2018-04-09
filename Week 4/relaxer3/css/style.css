@@ -1,8 +1,8 @@
-dp/*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+/*
+Project Name: Relaxr3 (JS & jQuery)
+Client: Relaxr
+Author: Annemarie Happee
+Developer @GA in Zimbabwe
 */
 
 
@@ -72,7 +72,6 @@ a {
 .logo {
   font-size: 48px;
   font-weight: 800;
-  margin: 50px 40px 30px;
 }
 
 header {
@@ -143,11 +142,11 @@ h2 a {
   padding-left: 3px;
   font-weight: 600;
 }
-.readmore {
+.readmore, .readless {
   text-align: right;
   margin-top: 30px;
 }
-.readmore a {
+.readmore a, .readless a {
   color: #043049;
   font-weight: 600;
 }
@@ -162,9 +161,9 @@ h2 a {
   display: block;
   margin: 0 auto;
 }
- .yellow {
+.yellow {
   background: #f9e42e;
-  color: #033048; 
+  color: #033048;
 }
 .blue {
   background: #033048;
@@ -207,9 +206,9 @@ footer {
   padding: 65px 0 45px;
   text-align: center;
 }
-footer .logo {r
+footer .logo {
   color: #f9e42e;
-  margin-bottom: 68px;d
+  margin-bottom: 68px;
 }
 footer ul li {
   display: inline-block;
@@ -221,7 +220,15 @@ footer p {
   color: #fff;
   font-weight: 600;
 }
+.hide {
+  display: none;
+  margin-top: 30px;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+
+
+
