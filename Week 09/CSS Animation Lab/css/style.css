@@ -1,0 +1,100 @@
+/* Affect 1: Causes color change, rotate, change size */
+/*
+.box {
+	height: 150px;
+	width:150px;
+	background-color: palegreen;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	transition: all 2s;
+	margin: 5px;
+}
+
+.box:hover{
+	background-color: deeppink;
+	transform: rotate(360deg);
+	height: 300px;
+	width: 300px;
+}
+*/
+
+/* Affect 2:; will make box look like it's breathing; */
+/*
+@keyframes breathe-animation{
+	0%{
+		transform: scale(1);
+	}
+
+	50%{
+		transform: scale(1.1);
+	}
+
+	100%{
+		transform: scale(1);
+	}
+}
+.box {
+	height: 150px;
+	width:150px;
+	background-color: palegreen;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 5px;
+	animation: breathe-animation 3.2s ease-in-out infinite;
+}
+
+*/
+
+
+/* Affect 3: Will make box a heartbeat */
+
+@keyframes heartbeat-animation{
+	0%{
+		transform: scale(1);
+	}
+
+	20%{
+		transform: scale(1.1);
+	}
+
+	40%{
+		transform: scale(1);
+	}
+
+	60%{
+		transform: scale(1);
+	}
+
+	80% {
+		transform: scale(1.1);
+	}
+
+	100%{
+		transform: scale(1);
+	}
+
+
+}
+.box {
+	height: 150px;
+	width:150px;
+	background-color: red;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 5px;
+	animation: heartbeat-animation 1.2s ease-in-out infinite;
+}
+
+
+
+
+
+
+
+
+
+
+

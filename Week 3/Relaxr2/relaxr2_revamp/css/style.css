@@ -1,4 +1,4 @@
-/*
+  /*
 Project Name: Relaxr 2.0
 Client: GA LA
 Author: Annemarie Happee
@@ -104,18 +104,19 @@ nav ul li a{
 
 #main {
  margin-top: 80px;
+ /*font-size: 0;*/
 
 }
 
 #posts {
   width: 700px;
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 10px;
   vertical-align: top;
 }
 
 #sidebar {
-  width: 240px;
+  width: 239px;
   display: inline-block;
   vertical-align: top;
 }
